@@ -1,0 +1,15 @@
+body{background-image: url(../img/1.jpg)}
+
+h1{color: #b33c00;
+	margin-left:70px;
+}
+h2{color:#660000;
+	margin-left: 200px;
+}
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000000;
+  line-height: 1.8;
+}
