@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>AWA's BLOG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url(galeri3.jpeg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>awa</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('portfolio').style.display='block'" class="w3-button w3-black">portfolio</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">this is my portfolio</p>
+    <p class="w3-large">Ciheuleut, Bogor</p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="portfolio" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>HighSchool</h1>
+    </div>
+    <div class="w3-container">
+      <h5><b>Sisters from another mother.</b></h5>
+      <h5>Wisma Jihan.</h5>
+      <img src="teman6.jpg" width="450" height="300">
+      <h5>Ulang Tahun Feberyl.</h5>
+      <img src="teman1.jpeg" width="450" height="350">
+      <h5><b>My friends in 11 grade</b></h5>
+      <h5>Rumah Rahel.</h5>
+      <img src="teman4.jpeg"width="450" height="350">
+      <h5>Ulang Tahun Bu eti.</h5>
+      <img src="teman5.jpg"width="450" height="300">
+      <h5>Ulang Tahunku.</h5>
+      <img src="teman3.jpeg"width="450" height="350">
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Family</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Purbalingga.</h5>
+      <img src="fam2.jpeg"width="400" height="300">
+      <h5>Family.</h5>
+      <img src="fam1.jpeg"width="400" height="250">
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Gallery</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Purbalingga.</h5>
+      <img src="galeri2.jpeg"width="350" height="400">
+      <h5>Pantai Carita.</h5>
+      <img src="galeri1.jpeg"width="450" height="300">
+      <h5>Gunung Gede.</h5>
+      <img src="galeri5.jpeg"width="300" height="500">
+      <h5>Puncak Gunung Gede.</h5>
+      <img src="galeri6.jpeg"width="475" height="300">
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p class="w3-text-grey">You can also contact me on <img src=""> <a href="https://www.instagram.com/najwanayanda/"><strong>@najwanayanda</strong></a>, and you can give me a message about me or my blog down below</p>      
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message for me" required name="Message for me"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
